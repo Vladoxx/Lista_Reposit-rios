@@ -1,0 +1,45 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(29, 133, 19);
+}
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+    height: 150px;
+    width: auto;
+    color: rgb(115, 255, 0);
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div a {
+    font-size: 23px;
+    color: rgb(94, 228, 17);
+    text-decoration: none;
+}
+
+div a:hover {
+    color: rgb(94, 228, 17);
+}
+
+.card {
+    width: 400px;
+    height: 130px;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.card:hover {
+    border-radius: 12%;
+    height: 100px;
+    max-width: 300px;
+    border: 1px solid rgb(1, 29, 11);
+}  
